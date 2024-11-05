@@ -1,5 +1,5 @@
 
-# GPT-Chess
+# ChessGPT
 
 I built and trained a GPT model that can generate chess games in PGN notation from scratch in PyTorch. I attached it to an API using FastAPI and containerized it using Docker.
 
@@ -10,7 +10,7 @@ I built and trained a GPT model that can generate chess games in PGN notation fr
 Generative pre-trained transformer, or GPT, models have taken the world by storm. ChatGPT and similar LLMs are being used by students, parents, and enterprises across the world to solve a variety of problems. While I knew the basic theory of transformers, I wanted to delve deeper and actually create one from scratch by following the original 
 [AttentionIsAllYouNeed](https://arxiv.org/abs/1706.03762) paper. 
 
-Having played professional chess for close to half of my life, I wanted to tie the project to chess somehow, which is how I came up with the idea of GPT-Chess. Many of us may be familiar with the famous case of AlphaZero, a reinforcement learning computer that dominated the chess scene. It not only beat the best human players, but more importantly, the strongest chess engines. My goal was not to dethrone AlphaZero——my hunch is that reinforcement learning based models will always be the king of chess engines——but to create a GPT model that could produce reasonable chess games.
+Having played professional chess for close to half of my life, I wanted to tie the project to chess somehow, which is how I came up with the idea of Chess-GPT. Many of us may be familiar with the famous case of AlphaZero, a reinforcement learning computer that dominated the chess scene. It not only beat the best human players, but more importantly, the strongest chess engines. My goal was not to dethrone AlphaZero——my hunch is that reinforcement learning based models will always be the king of chess engines——but to create a GPT model that could produce reasonable chess games.
 
 With this project, I wanted to learn how to code up the Transformer architecture, and consequently the GPT-2 architecture all in PyTorch. I wanted to learn more about training enormous models by firsthand training one——my base model ended up with 75,222,251 parameters! Lastly, I wanted some more practical experience deploying deep learning models, so I experimented with FastAPI and Docker to containerize and wrap my model with an API that others can easily call and use to generate chess games, whether on a virtual machine or local machine.
 
